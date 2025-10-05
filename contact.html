@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+       <nav class="bg-white shadow-md">
+    <div class="flex justify-between items-center px-6 py-4">
+      
+      
+      <a href="#" class="text-3xl font-extrabold text-black">
+        <img src="./images/imgi_1_logo.png" alt="Aesthetic Logo" class="inline-block" style="width: 85px; height: 25px;">
+      </a>
+
+      
+      <ul class="hidden md:flex space-x-8">
+        <li><a href="#home" class="text-lg font-medium hover:text-teal-500">Home</a></li>
+        <li><a href="#about" class="text-lg font-medium hover:text-teal-500">About</a></li>
+        <li><a href="#services" class="text-lg font-medium hover:text-teal-500">Services</a></li>
+        <li><a href="#news" class="text-lg font-medium hover:text-teal-500">News</a></li>
+        <li><a href="#contact" class="text-lg font-medium hover:text-teal-500">Contact</a></li>
+        <li><a href="#appointment" class="bg-teal-500 text-white px-6 py-2 rounded-full hover:bg-teal-400">Appointment</a></li>
+      </ul>
+
+      
+      <label for="menu-toggle" class="md:hidden cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </div>
+
+    
+    <input type="checkbox" id="menu-toggle" class="hidden" />
+
+    
+    <ul id="mobile-menu" class="md:hidden flex flex-col bg-gray-800 text-white px-6 space-y-4 max-h-0 overflow-hidden opacity-0 invisible transition-all duration-300 ease-in-out">
+      <li><a href="#home" class="block py-2">Home</a></li>
+      <li><a href="#about" class="block py-2">About</a></li>
+      <li><a href="#services" class="block py-2">Services</a></li>
+      <li><a href="#news" class="block py-2">News</a></li>
+      <li><a href="#contact" class="block py-2">Contact</a></li>
+      <li><a href="#appointment" class="block py-2">Appointment</a></li>
+    </ul>
+  </nav>
+    <div class="bg-white shadow-md">
+
+        <p class="text-gray-700 text-2xl text-center h-14">CONTACT US</p>
+        <p class="text-gray-700 text-4xl text-center">Reach out for a new project or just say hello</p>
+    </div>
+
+   <p class="text-center text-xl h-14">SEND US A MESSAGE</p>
+
+    <div class="h-14 space-y-4">
+
+        <div class="p-8">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500" required />
+                    </div>
+
+                    <div class="p-8">
+                        <label for=" Your email" class="block text-sm font-medium text-gray-700">Your Email</label>
+                        <input type="Your email" id="Your email" name="Your email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500" required />
+                    </div>
+
+                   
+                     <div class="p-8">
+                        <label for=" Your message" class="block text-sm font-medium text-gray-700">Your message</label>
+                        <input type="Your message" id="Your message" name="Your message" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500" required />
+                    
+                    </div>
+                    <div class="p-8">
+                    <a href="#contact" class="inline-block bg-teal-500 text-white py-2 px-6 rounded-md text-lg hover:bg-teal-400 transition duration-300 ">
+                Submit
+            </a>
+            </div>
+    <footer class="bg-gray-900 text-white py-8 mt-12">
+  <div class="container mx-auto px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center md:items-start space-y-6 md:space-y-0">
+      
+      
+      <div class="flex flex-col items-center md:items-start text-center md:text-left">
+        <a href="#" class="text-3xl font-extrabold text-teal-500">AESTHETIC</a>
+        <p class="text-sm mt-2 text-gray-400">Take the world's best quality Treatment</p>
+      </div>
+
+      
+      <div class="flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0">
+        <a href="#home" class="text-lg text-gray-300 hover:text-teal-500">Home</a>
+        <a href="#about" class="text-lg text-gray-300 hover:text-teal-500">About</a>
+        <a href="#services" class="text-lg text-gray-300 hover:text-teal-500">Services</a>
+        <a href="#news" class="text-lg text-gray-300 hover:text-teal-500">News</a>
+        <a href="#contact" class="text-lg text-gray-300 hover:text-teal-500">Contact</a>
+      </div>
+
+      
+      <div class="flex space-x-5">
+        <a href="#" class="text-gray-300 hover:text-teal-500">
+           <i class="fab fa-facebook-f"></i>
+        <a href="#" class="text-gray-300 hover:text-teal-500">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-teal-500">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="text-center mt-8 text-gray-400 text-sm">
+      <p>&copy; 2025 Aesthetic Design Co. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+</body>
+</html>
