@@ -77,7 +77,7 @@
 <!-- 2nd section -->
 <section class="relative bg-white py-16">
   
-    <div class="container mx-auto px-8 relative z-10 flex items-center justify-between space-x-8">
+    <div class="container mx-auto px-6 sm:px-8 flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0">
        
         <div class="w-full md:w-1/3 bg-white p-6 shadow-xl rounded-lg border border-gray-200">
             <h2 class="text-2xl font-semibold mb-6 text-teal-500">REQUEST FOR YOUR Consultation</h2>
@@ -122,7 +122,7 @@
         </div>
 
      
-        <div class="w-full md:w-2/3 flex items-center justify-center space-x-8">
+        <div class="w-full md:w-2/3 flex flex-col md:flex-row items-center md:space-x-8">
            
             <div class="text-center md:text-left max-w-md">
                 <h2 class="text-3xl font-bold text-teal-500">Welcome to Aesthetic</h2>
@@ -257,30 +257,119 @@
 
 <!-- 5th section -->
 
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-8">
-    <h2 class="text-3xl font-semibold text-teal-500 mb-8 text-center">
-      SKIN CARE 
-    </h2>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-8 text-center ">
     
-      <div class="md:col-span-2 grid grid-cols-2 gap-6">
-        <img src="./images/imgi_11_gallery-1.jpg" alt="Image 1" class="w-full h-auto object-cover rounded-lg shadow-lg">
-        <img src="./images/imgi_12_gallery-2.jpg" alt="Image 2" class="w-full h-auto object-cover rounded-lg shadow-lg">
-        <img src="./images/imgi_13_gallery-3.jpg" alt="Image 3" class="w-full h-auto object-cover rounded-lg shadow-lg">
-        <img src="./images/imgi_15_gallery-5.jpg" alt="Image 4" class="w-full h-auto object-cover rounded-lg shadow-lg">
-        <img src="./images/imgi_16_gallery-6.jpg" alt="Image 5" class="w-full h-auto object-cover rounded-lg shadow-lg">
-        <img src="./images/imgi_17_gallery-7.jpg" alt="Image 6" class="w-full h-auto object-cover rounded-lg shadow-lg">
+    <h1 class="text-4xl font-bold text-teal-600 mb-12">
+      Our Team and Our Expert Doctors
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 ">
+      <div class="flex flex-col items-center">
+        <img src="./images/imgi_7_team-2.jpg" alt="Doctor 1" 
+             class="w-40 h-40 rounded-full object-cover shadow-lg mb-4">
+        <h3 class="text-xl font-semibold">Dr. John Smith</h3>
+        <p class="text-gray-600">Cardiologist</p>
       </div>
 
       
-      <div class="flex">
-        <img src="./images/imgi_14_gallery-4.jpg" alt="Image 7" class="w-full h-auto object-cover rounded-lg shadow-lg">
+      <div class="flex flex-col items-center">
+        <img src="./images/imgi_6_team-1.jpg" alt="Doctor 2" 
+             class="w-40 h-40 rounded-full object-cover shadow-lg mb-4">
+        <h3 class="text-xl font-semibold">Dr. Sarah Johnson</h3>
+        <p class="text-gray-600">Dermatologist</p>
+      </div>
+
+      
+      <div class="flex flex-col items-center">
+        <img src="./images/imgi_8_team-3.jpg" alt="Doctor 3" 
+             class="w-40 h-40 rounded-full object-cover shadow-lg mb-4">
+        <h3 class="text-xl font-semibold">Dr. Michael Smith</h3>
+        <p class="text-gray-600">Neurologist</p>
       </div>
     </div>
   </div>
 </section>
+
+
+
+
+<!-- 6th section -->
+
+<section id="image" class="py-16 bg-gray-100">
+  <div class="container mx-auto px-6 sm:px-8">
+    <h2 class="text-3xl font-bold text-center text-teal-500 mb-12">Our Gallery</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="grid grid-cols-2 gap-4 md:col-span-2">
+        <img src="./images/imgi_13_gallery-3.jpg" alt="Gallery Image" class="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-300">
+        <img src="./images/imgi_15_gallery-5.jpg" alt="Gallery Image" class="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-300">
+        <img src="./images/imgi_16_gallery-6.jpg" alt="Gallery Image" class="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-300">
+        <img src="./images/imgi_17_gallery-7.jpg" alt="Gallery Image" class="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition duration-300">
+      </div>
+
+      
+      <div class="h-full">
+        <img src="./images/imgi_14_gallery-4.jpg" alt="Gallery Image" class="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition duration-300">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- 7th section -->
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-8">
+    
+    
+    <div class="flex flex-col md:flex-row justify-between items-center mb-12 text-center md:text-left">
+      <div>
+        <p class="text-teal-500 font-semibold uppercase tracking-wide">OUR NEWS</p>
+        <h2 class="text-3xl font-bold text-black">Skin Care Tips</h2>
+      </div>
+      <a href="#contact" class="mt-6 md:mt-0 px-6 py-3 border border-teal-500 text-teal-500 rounded hover:bg-teal-500 hover:text-white transition">
+        VIEW ALL NEWS
+      </a>
+    </div>
+
+  
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+      <div class="flex flex-col bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">
+          Here’s how you can get a natural glow this party season
+        </h3>
+        <p class="text-sm text-gray-600">
+          Discover simple skincare routines and natural remedies for a glowing look this festive season.
+        </p>
+      </div>
+
+      
+      <div class="flex flex-col bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">
+          Get better skin with these top 10 tips for skin care
+        </h3>
+        <p class="text-sm text-gray-600">
+          Learn the top dermatologist-approved tips for keeping your skin healthy and radiant all year.
+        </p>
+      </div>
+
+    
+      
+      <div class="flex flex-col bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">
+          8 Ways to Save Your Skin if You Exercise Outside This Winter
+        </h3>
+        <p class="text-sm text-gray-600">
+          Protect your skin from cold weather damage with these essential skincare strategies.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <!-- footer section -->
@@ -307,6 +396,7 @@
       <div class="flex space-x-5">
         <a href="#" class="text-gray-300 hover:text-teal-500">
            <i class="fab fa-facebook-f"></i>
+           </a>
         <a href="#" class="text-gray-300 hover:text-teal-500">
           <i class="fab fa-twitter"></i>
         </a>
